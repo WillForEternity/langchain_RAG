@@ -26,13 +26,13 @@ conda remove -n your_env_name.env --all
 
 ## If not using a virtual env, start here.
 
-Install the "onnxruntime" dependency for chromdb:
+Install the `onnxruntime` dependency for chromdb:
 
 ```bash
 conda install onnxruntime -c conda-forge
 ```
 
-Then, create a text file called requirements.txt in your project folder and paste the contents of my requirements file into yours. 
+Then, create a text file called `requirements.txt` in your project folder and paste the contents of my requirements file into yours. 
 I chose to specify exact package versions that worked for me, but you may have to update versions in the future.
 
 To install the dependencies listed in the requirements file, type the following into your command line.
